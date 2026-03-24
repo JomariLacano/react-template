@@ -1,0 +1,19 @@
+export default function AppFooter() {
+  return (
+    <footer className="app-footer flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+      <div>
+        <strong>
+          &copy; 2024-2026{' '}
+          <a href="#" className="text-primary hover:underline">
+            TailAdminLTE
+          </a>
+          .
+        </strong>{' '}
+        All rights reserved.
+      </div>
+      <div>
+        <b>Version</b> 1.0.0
+      </div>
+    </footer>
+  )
+}
