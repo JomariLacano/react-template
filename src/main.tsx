@@ -18,8 +18,20 @@ initLayout()
 initSidebar()
 initAccessibility()
 
+// Vercel Speed Insights
+import { SpeedInsights } from '@vercel/speed-insights/react'
+
+function App() {
+  return (
+    <>
+      <RouterProvider router={router} />
+      <SpeedInsights />
+    </>
+  )
+}
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 )
