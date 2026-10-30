@@ -38,7 +38,7 @@ export default function InvoicePage() {
         <div className="flex flex-col sm:flex-row justify-between items-start mb-8">
           <div>
             <div className="flex items-center gap-3 mb-2">
-              <span className="flex h-10 w-10 items-center justify-center rounded bg-gray-800 text-sm font-bold text-white">JL</span>
+              <img src="assets/img/jl-mark.svg" alt="JL Tempate" className="h-10 w-10 rounded" />
               <h2 className="text-2xl font-bold">JL <span className="font-normal">Tempate</span></h2>
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-400">Premium Admin Dashboard</p>

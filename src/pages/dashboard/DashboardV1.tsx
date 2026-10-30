@@ -75,21 +75,21 @@ const visitorsChartData: ChartData<'bar'> = {
 const initialChatMessages: ChatMessage[] = [
   {
     name: 'JL Tempate',
-    avatar: 'assets/img/user1-128x128.jpg',
+    avatar: 'assets/img/jl-user-01.svg',
     text: "Is this template really free? That's unbelievable!",
     time: '23 Jan 2:00 pm',
     side: 'left',
   },
   {
     name: 'Sarah Bullock',
-    avatar: 'assets/img/user3-128x128.jpg',
+    avatar: 'assets/img/jl-user-02.svg',
     text: 'You better believe it!',
     time: '23 Jan 2:05 pm',
     side: 'right',
   },
   {
     name: 'JL Tempate',
-    avatar: 'assets/img/user1-128x128.jpg',
+    avatar: 'assets/img/jl-user-01.svg',
     text: 'Working with JL Tempate on a great new app! Wanna join?',
     time: '23 Jan 5:37 pm',
     side: 'left',
@@ -97,10 +97,10 @@ const initialChatMessages: ChatMessage[] = [
 ]
 
 const chatContacts: ChatContact[] = [
-  { name: 'Count Dracula', avatar: 'assets/img/user1-128x128.jpg', status: '2/28/2023' },
-  { name: 'Sarah Doe', avatar: 'assets/img/user7-128x128.jpg', status: '2/23/2023' },
-  { name: 'Nadia Jolie', avatar: 'assets/img/user3-128x128.jpg', status: '2/20/2023' },
-  { name: 'Nora S. Vans', avatar: 'assets/img/user5-128x128.jpg', status: '2/10/2023' },
+  { name: 'Count Dracula', avatar: 'assets/img/jl-user-01.svg', status: '2/28/2023' },
+  { name: 'Sarah Doe', avatar: 'assets/img/jl-user-06.svg', status: '2/23/2023' },
+  { name: 'Nadia Jolie', avatar: 'assets/img/jl-user-02.svg', status: '2/20/2023' },
+  { name: 'Nora S. Vans', avatar: 'assets/img/jl-user-04.svg', status: '2/10/2023' },
 ]
 
 // -- Products table data --
@@ -120,7 +120,7 @@ export default function DashboardV1() {
       ...prev,
       {
         name: 'Sarah Bullock',
-        avatar: 'assets/img/user3-128x128.jpg',
+        avatar: 'assets/img/jl-user-02.svg',
         text,
         time: 'Just now',
         side: 'right',

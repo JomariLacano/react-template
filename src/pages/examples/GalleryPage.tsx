@@ -11,18 +11,18 @@ interface GalleryImage {
 const categories = ['all', 'nature', 'urban', 'art', 'products'] as const
 
 const images: GalleryImage[] = [
-  { src: 'assets/img/photo1.png', title: 'Mountain Sunrise', category: 'nature', desc: 'Beautiful sunrise over the mountains' },
-  { src: 'assets/img/photo2.png', title: 'City Skyline', category: 'urban', desc: 'Modern city skyline at dusk' },
-  { src: 'assets/img/photo3.jpg', title: 'Forest Path', category: 'nature', desc: 'A winding path through autumn forest' },
-  { src: 'assets/img/photo4.jpg', title: 'Abstract Art', category: 'art', desc: 'Colorful abstract digital artwork' },
-  { src: 'assets/img/prod-1.jpg', title: 'Product Showcase', category: 'products', desc: 'Featured product photography' },
-  { src: 'assets/img/prod-2.jpg', title: 'Tech Gadget', category: 'products', desc: 'Latest tech gadget close-up' },
-  { src: 'assets/img/prod-3.jpg', title: 'Office Space', category: 'urban', desc: 'Modern workspace design' },
-  { src: 'assets/img/prod-4.jpg', title: 'Creative Design', category: 'art', desc: 'Minimalist creative design' },
-  { src: 'assets/img/prod-5.jpg', title: 'Nature Reserve', category: 'nature', desc: 'Peaceful nature reserve landscape' },
-  { src: 'assets/img/boxed-bg.jpg', title: 'Texture Pattern', category: 'art', desc: 'Seamless texture pattern background' },
-  { src: 'assets/img/photo1.png', title: 'Lakeside View', category: 'nature', desc: 'Calm lake reflecting the sky' },
-  { src: 'assets/img/photo2.png', title: 'Downtown Night', category: 'urban', desc: 'City lights at night' },
+  { src: 'assets/img/gallery-mountain.jpg', title: 'Mountain Sunrise', category: 'nature', desc: 'Beautiful sunrise over the mountains' },
+  { src: 'assets/img/gallery-city.jpg', title: 'City Skyline', category: 'urban', desc: 'Modern city skyline at dusk' },
+  { src: 'assets/img/gallery-forest.jpg', title: 'Forest Path', category: 'nature', desc: 'A winding path through autumn forest' },
+  { src: 'assets/img/gallery-abstract.jpg', title: 'Abstract Art', category: 'art', desc: 'Colorful abstract digital artwork' },
+  { src: 'assets/img/product-headphones.jpg', title: 'Wireless Headphones', category: 'products', desc: 'Over-ear headphones on a warm studio backdrop' },
+  { src: 'assets/img/product-backpack.jpg', title: 'Travel Backpack', category: 'products', desc: 'A practical pack photographed in a clean studio' },
+  { src: 'assets/img/product-watch.jpg', title: 'Minimal Wristwatch', category: 'products', desc: 'A modern watch with a simple face' },
+  { src: 'assets/img/product-shirt.jpg', title: 'Cotton T-Shirt', category: 'products', desc: 'Everyday cotton apparel in a bright studio' },
+  { src: 'assets/img/product-keyboard.jpg', title: 'Mechanical Keyboard', category: 'products', desc: 'A compact keyboard photographed from above' },
+  { src: 'assets/img/jl-pattern.svg', title: 'JL Tempate Pattern', category: 'art', desc: 'Original geometric pattern in the JL palette' },
+  { src: 'assets/img/gallery-mountain.jpg', title: 'Alpine Valley', category: 'nature', desc: 'Layered mountain peaks framed by forest' },
+  { src: 'assets/img/gallery-city.jpg', title: 'Downtown Night', category: 'urban', desc: 'City lights at night' },
 ]
 
 export default function GalleryPage() {

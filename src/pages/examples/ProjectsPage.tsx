@@ -11,14 +11,14 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { name: 'JL Tempate Core', desc: 'Main dashboard framework with Tailwind CSS', status: 'active', progress: 78, deadline: 'Apr 15, 2026', team: ['assets/img/user1-128x128.jpg', 'assets/img/user3-128x128.jpg', 'assets/img/user5-128x128.jpg'] },
-  { name: 'E-Commerce Module', desc: 'Product management and checkout flow', status: 'active', progress: 45, deadline: 'May 20, 2026', team: ['assets/img/user4-128x128.jpg', 'assets/img/user6-128x128.jpg'] },
-  { name: 'Mobile App Redesign', desc: 'React Native mobile application overhaul', status: 'completed', progress: 100, deadline: 'Feb 28, 2026', team: ['assets/img/user1-128x128.jpg', 'assets/img/user7-128x128.jpg', 'assets/img/user8-128x128.jpg', 'assets/img/user3-128x128.jpg'] },
-  { name: 'API Gateway v2', desc: 'Microservices API gateway with rate limiting', status: 'on-hold', progress: 32, deadline: 'Jun 10, 2026', team: ['assets/img/user5-128x128.jpg', 'assets/img/user6-128x128.jpg'] },
-  { name: 'Analytics Dashboard', desc: 'Real-time analytics and reporting', status: 'active', progress: 62, deadline: 'Apr 30, 2026', team: ['assets/img/user1-128x128.jpg', 'assets/img/user4-128x128.jpg', 'assets/img/user8-128x128.jpg'] },
-  { name: 'Design System', desc: 'Unified component library and style guide', status: 'completed', progress: 100, deadline: 'Jan 15, 2026', team: ['assets/img/user3-128x128.jpg', 'assets/img/user7-128x128.jpg'] },
-  { name: 'CI/CD Pipeline', desc: 'Automated testing and deployment workflow', status: 'active', progress: 88, deadline: 'Mar 31, 2026', team: ['assets/img/user5-128x128.jpg'] },
-  { name: 'Data Migration', desc: 'Legacy database migration to PostgreSQL', status: 'on-hold', progress: 15, deadline: 'Jul 01, 2026', team: ['assets/img/user6-128x128.jpg', 'assets/img/user8-128x128.jpg', 'assets/img/user1-128x128.jpg'] },
+  { name: 'JL Tempate Core', desc: 'Main dashboard framework with Tailwind CSS', status: 'active', progress: 78, deadline: 'Apr 15, 2026', team: ['assets/img/jl-user-01.svg', 'assets/img/jl-user-02.svg', 'assets/img/jl-user-04.svg'] },
+  { name: 'E-Commerce Module', desc: 'Product management and checkout flow', status: 'active', progress: 45, deadline: 'May 20, 2026', team: ['assets/img/jl-user-03.svg', 'assets/img/jl-user-05.svg'] },
+  { name: 'Mobile App Redesign', desc: 'React Native mobile application overhaul', status: 'completed', progress: 100, deadline: 'Feb 28, 2026', team: ['assets/img/jl-user-01.svg', 'assets/img/jl-user-06.svg', 'assets/img/jl-user-07.svg', 'assets/img/jl-user-02.svg'] },
+  { name: 'API Gateway v2', desc: 'Microservices API gateway with rate limiting', status: 'on-hold', progress: 32, deadline: 'Jun 10, 2026', team: ['assets/img/jl-user-04.svg', 'assets/img/jl-user-05.svg'] },
+  { name: 'Analytics Dashboard', desc: 'Real-time analytics and reporting', status: 'active', progress: 62, deadline: 'Apr 30, 2026', team: ['assets/img/jl-user-01.svg', 'assets/img/jl-user-03.svg', 'assets/img/jl-user-07.svg'] },
+  { name: 'Design System', desc: 'Unified component library and style guide', status: 'completed', progress: 100, deadline: 'Jan 15, 2026', team: ['assets/img/jl-user-02.svg', 'assets/img/jl-user-06.svg'] },
+  { name: 'CI/CD Pipeline', desc: 'Automated testing and deployment workflow', status: 'active', progress: 88, deadline: 'Mar 31, 2026', team: ['assets/img/jl-user-04.svg'] },
+  { name: 'Data Migration', desc: 'Legacy database migration to PostgreSQL', status: 'on-hold', progress: 15, deadline: 'Jul 01, 2026', team: ['assets/img/jl-user-05.svg', 'assets/img/jl-user-07.svg', 'assets/img/jl-user-01.svg'] },
 ]
 
 function statusColor(s: string): string {

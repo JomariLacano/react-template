@@ -40,14 +40,14 @@ export default function SearchPage() {
   ]
 
   const imageResults = [
-    { src: 'assets/img/photo1.png', label: 'Dashboard Overview' },
-    { src: 'assets/img/photo2.png', label: 'Widgets Page' },
-    { src: 'assets/img/photo3.jpg', label: 'Dark Mode Theme' },
-    { src: 'assets/img/photo4.jpg', label: 'Chart Examples' },
-    { src: 'assets/img/prod-1.jpg', label: 'Form Elements' },
-    { src: 'assets/img/prod-2.jpg', label: 'Login Page' },
-    { src: 'assets/img/prod-3.jpg', label: 'Data Tables' },
-    { src: 'assets/img/prod-4.jpg', label: 'User Profile' },
+    { src: 'assets/img/gallery-mountain.jpg', label: 'Mountain Range' },
+    { src: 'assets/img/gallery-city.jpg', label: 'City Skyline' },
+    { src: 'assets/img/gallery-forest.jpg', label: 'Forest Path' },
+    { src: 'assets/img/gallery-abstract.jpg', label: 'Abstract Art' },
+    { src: 'assets/img/product-headphones.jpg', label: 'Wireless Headphones' },
+    { src: 'assets/img/product-backpack.jpg', label: 'Travel Backpack' },
+    { src: 'assets/img/product-watch.jpg', label: 'Minimal Wristwatch' },
+    { src: 'assets/img/product-shirt.jpg', label: 'Cotton T-Shirt' },
   ]
 
   const newsResults = [
@@ -55,19 +55,19 @@ export default function SearchPage() {
       title: 'JL Tempate 1.0 Released with Full Dark Mode Support',
       source: 'TechNews - March 10, 2026',
       desc: 'The popular open-source admin template now features complete dark mode, improved accessibility, and 20 new UI components...',
-      thumb: 'assets/img/photo1.png',
+      thumb: 'assets/img/gallery-mountain.jpg',
     },
     {
       title: 'Top 10 Admin Dashboards for 2026 - JL Tempate Makes the List',
       source: 'WebDev Weekly - February 28, 2026',
       desc: 'Our annual roundup of admin dashboard templates includes JL Tempate as a pick for React and Tailwind CSS projects...',
-      thumb: 'assets/img/photo2.png',
+      thumb: 'assets/img/gallery-city.jpg',
     },
     {
       title: 'How JL Tempate Simplifies Admin Panel Development',
       source: 'Dev.to - February 15, 2026',
       desc: 'A look at how JL Tempate combines reusable React components with Tailwind CSS to speed up admin panel development...',
-      thumb: 'assets/img/photo3.jpg',
+      thumb: 'assets/img/gallery-forest.jpg',
     },
   ]
 

@@ -12,14 +12,14 @@ interface Product {
 }
 
 const products: Product[] = [
-  { name: 'Wireless Bluetooth Headphones', price: 79.99, rating: 4.5, reviews: 128, category: 'electronics', image: 'assets/img/prod-1.jpg', badge: 'Sale' },
-  { name: 'Premium Leather Backpack', price: 129.99, rating: 4.8, reviews: 89, category: 'accessories', image: 'assets/img/prod-2.jpg', badge: '' },
-  { name: 'Smart Fitness Watch', price: 199.99, rating: 4.3, reviews: 256, category: 'electronics', image: 'assets/img/prod-3.jpg', badge: 'New' },
-  { name: 'Organic Cotton T-Shirt', price: 34.99, rating: 4.6, reviews: 412, category: 'clothing', image: 'assets/img/prod-4.jpg', badge: '' },
-  { name: 'Mechanical Keyboard RGB', price: 149.99, rating: 4.7, reviews: 67, category: 'electronics', image: 'assets/img/prod-5.jpg', badge: 'Hot' },
-  { name: 'Canvas Sneakers', price: 59.99, rating: 4.2, reviews: 183, category: 'clothing', image: 'assets/img/prod-1.jpg', badge: 'Sale' },
-  { name: 'Stainless Steel Water Bottle', price: 24.99, rating: 4.9, reviews: 534, category: 'accessories', image: 'assets/img/prod-2.jpg', badge: '' },
-  { name: 'Wireless Charging Pad', price: 39.99, rating: 4.4, reviews: 301, category: 'electronics', image: 'assets/img/prod-3.jpg', badge: '' },
+  { name: 'Wireless Bluetooth Headphones', price: 79.99, rating: 4.5, reviews: 128, category: 'electronics', image: 'assets/img/product-headphones.jpg', badge: 'Sale' },
+  { name: 'Premium Leather Backpack', price: 129.99, rating: 4.8, reviews: 89, category: 'accessories', image: 'assets/img/product-backpack.jpg', badge: '' },
+  { name: 'Smart Fitness Watch', price: 199.99, rating: 4.3, reviews: 256, category: 'electronics', image: 'assets/img/product-watch.jpg', badge: 'New' },
+  { name: 'Organic Cotton T-Shirt', price: 34.99, rating: 4.6, reviews: 412, category: 'clothing', image: 'assets/img/product-shirt.jpg', badge: '' },
+  { name: 'Mechanical Keyboard RGB', price: 149.99, rating: 4.7, reviews: 67, category: 'electronics', image: 'assets/img/product-keyboard.jpg', badge: 'Hot' },
+  { name: 'Canvas Sneakers', price: 59.99, rating: 4.2, reviews: 183, category: 'clothing', image: 'assets/img/product-sneakers.jpg', badge: 'Sale' },
+  { name: 'Stainless Steel Water Bottle', price: 24.99, rating: 4.9, reviews: 534, category: 'accessories', image: 'assets/img/product-bottle.jpg', badge: '' },
+  { name: 'Wireless Charging Pad', price: 39.99, rating: 4.4, reviews: 301, category: 'electronics', image: 'assets/img/product-charger.svg', badge: '' },
 ]
 
 function stars(rating: number): ('full' | 'half' | 'empty')[] {

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">JL Tempate mark</title>
+  <rect width="96" height="96" rx="22" fill="#172b3a"/>
+  <path d="M22 18h15v39c0 14-8 22-22 22-5 0-9-1-13-3l5-13c2 1 4 2 7 2 5 0 8-3 8-9z" fill="#f7fafc"/>
+  <path d="M49 18h15v46h24v14H49z" fill="#f7fafc"/>
+  <path d="M70 18h18v9H70z" fill="#22c6ad"/>
+  <circle cx="78" cy="70" r="7" fill="#ff765e"/>
+</svg>

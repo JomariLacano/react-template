@@ -30,7 +30,7 @@ export default function LogoSwitchPage() {
         <p>The sidebar brand is composed of two elements inside <code>.sidebar-brand</code>:</p>
         <pre className="bg-gray-800 text-green-400 p-4 rounded mt-2 text-sm overflow-x-auto"><code>{`<div class="sidebar-brand">
   <a href="./index.html" class="brand-link">
-        <span class="brand-image">JL</span>
+        <img src="assets/img/jl-mark.svg" alt="JL Tempate" class="brand-image">
         <span class="brand-text">JL <b>Tempate</b></span>
   </a>
 </div>`}</code></pre>
@@ -79,7 +79,7 @@ export default function LogoSwitchPage() {
           <div>
             <h5 className="font-semibold mb-3">Expanded Sidebar (Full Logo)</h5>
             <div className="bg-gray-800 rounded-lg p-4 flex items-center gap-3">
-              <span className="flex h-8 w-8 items-center justify-center rounded bg-white text-xs font-bold text-slate-800">JL</span>
+              <img src="assets/img/jl-mark.svg" alt="JL Tempate" className="h-8 w-8 rounded" />
               <span className="text-white text-lg font-light">JL <b>Tempate</b></span>
             </div>
             <p className="text-sm text-gray-500 mt-2">Both logo image and brand text are visible.</p>
@@ -89,7 +89,7 @@ export default function LogoSwitchPage() {
           <div>
             <h5 className="font-semibold mb-3">Collapsed Sidebar (Mini Logo)</h5>
             <div className="bg-gray-800 rounded-lg p-4 flex items-center justify-center" style={{ width: '4.6rem' }}>
-              <span className="flex h-8 w-8 items-center justify-center rounded bg-white text-xs font-bold text-slate-800">JL</span>
+              <img src="assets/img/jl-mark.svg" alt="JL Tempate" className="h-8 w-8 rounded" />
             </div>
             <p className="text-sm text-gray-500 mt-2">Only the logo image is visible; text is hidden.</p>
           </div>

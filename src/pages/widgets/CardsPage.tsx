@@ -8,21 +8,21 @@ import type { ChatMessage, ChatContact } from '@/types'
 const chatMessages: ChatMessage[] = [
   {
     name: 'JL Tempate',
-    avatar: 'assets/img/user1-128x128.jpg',
+    avatar: 'assets/img/jl-user-01.svg',
     text: "Is this template really free? That's amazing!",
     time: '23 Jan 2:00 pm',
     side: 'left',
   },
   {
     name: 'Sarah Bullock',
-    avatar: 'assets/img/user3-128x128.jpg',
+    avatar: 'assets/img/jl-user-02.svg',
     text: "You bet! It's built with Tailwind CSS and Alpine.js.",
     time: '23 Jan 2:05 pm',
     side: 'right',
   },
   {
     name: 'JL Tempate',
-    avatar: 'assets/img/user1-128x128.jpg',
+    avatar: 'assets/img/jl-user-01.svg',
     text: "That's great. I've been looking for something like this for a while. Thanks for sharing!",
     time: '23 Jan 5:37 pm',
     side: 'left',
@@ -30,9 +30,9 @@ const chatMessages: ChatMessage[] = [
 ]
 
 const chatContacts: ChatContact[] = [
-  { name: 'JL Tempate', avatar: 'assets/img/user1-128x128.jpg', status: 'Online' },
-  { name: 'Sarah Bullock', avatar: 'assets/img/user3-128x128.jpg', status: 'Online' },
-  { name: 'Nora Silvester', avatar: 'assets/img/user5-128x128.jpg', status: 'Offline' },
+  { name: 'JL Tempate', avatar: 'assets/img/jl-user-01.svg', status: 'Online' },
+  { name: 'Sarah Bullock', avatar: 'assets/img/jl-user-02.svg', status: 'Online' },
+  { name: 'Nora Silvester', avatar: 'assets/img/jl-user-04.svg', status: 'Offline' },
 ]
 
 export default function CardsPage() {

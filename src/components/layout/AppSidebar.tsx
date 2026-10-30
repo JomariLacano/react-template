@@ -15,9 +15,7 @@ export default function AppSidebar({ activePage }: AppSidebarProps) {
       <aside className="app-sidebar">
         <div className="sidebar-brand">
           <Link to="/" className="brand-link">
-            <span className="brand-image flex h-[33px] w-[33px] items-center justify-center rounded bg-white text-xs font-bold text-slate-800">
-              JL
-            </span>
+            <img src="assets/img/jl-mark.svg" alt="JL Tempate" className="brand-image h-[33px] w-[33px]" />
             <span className="brand-text">
               JL <b>Tempate</b>
             </span>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 104" role="img" aria-labelledby="title">
+  <title id="title">JL Tempate</title>
+  <rect x="2" y="4" width="96" height="96" rx="22" fill="#172b3a"/>
+  <path d="M24 22h15v39c0 14-8 22-22 22-5 0-9-1-13-3l5-13c2 1 4 2 7 2 5 0 8-3 8-9z" fill="#f7fafc"/>
+  <path d="M51 22h15v46h24v14H51z" fill="#f7fafc"/>
+  <path d="M72 22h18v9H72z" fill="#22c6ad"/>
+  <circle cx="80" cy="74" r="7" fill="#ff765e"/>
+  <text x="120" y="59" fill="#172b3a" font-family="Georgia,serif" font-size="42" font-weight="700">JL Tempate</text>
+  <text x="122" y="83" fill="#567080" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">DASHBOARD SYSTEM</text>
+</svg>

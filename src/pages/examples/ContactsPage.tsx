@@ -11,14 +11,14 @@ interface Contact {
 }
 
 const contacts: Contact[] = [
-  { name: 'JL Tempate', role: 'Software Engineer', email: 'jl.tempate@example.com', phone: '+1 (555) 012-3456', avatar: 'assets/img/user1-128x128.jpg', social: { twitter: true, github: true, linkedin: true } },
-  { name: 'Sarah Johnson', role: 'UI/UX Designer', email: 'sarah.j@example.com', phone: '+1 (555) 234-5678', avatar: 'assets/img/user3-128x128.jpg', social: { twitter: true, github: false, linkedin: true } },
-  { name: 'Michael Chen', role: 'Project Manager', email: 'm.chen@example.com', phone: '+1 (555) 345-6789', avatar: 'assets/img/user4-128x128.jpg', social: { twitter: false, github: true, linkedin: true } },
-  { name: 'Emily Davis', role: 'Data Analyst', email: 'emily.d@example.com', phone: '+1 (555) 456-7890', avatar: 'assets/img/user5-128x128.jpg', social: { twitter: true, github: true, linkedin: false } },
-  { name: 'Robert Wilson', role: 'DevOps Engineer', email: 'r.wilson@example.com', phone: '+1 (555) 567-8901', avatar: 'assets/img/user6-128x128.jpg', social: { twitter: false, github: true, linkedin: true } },
-  { name: 'Jessica Martinez', role: 'Marketing Lead', email: 'j.martinez@example.com', phone: '+1 (555) 678-9012', avatar: 'assets/img/user7-128x128.jpg', social: { twitter: true, github: false, linkedin: true } },
-  { name: 'Daniel Thompson', role: 'Backend Developer', email: 'd.thompson@example.com', phone: '+1 (555) 789-0123', avatar: 'assets/img/user8-128x128.jpg', social: { twitter: true, github: true, linkedin: true } },
-  { name: 'Amanda Brown', role: 'QA Engineer', email: 'a.brown@example.com', phone: '+1 (555) 890-1234', avatar: 'assets/img/user1-128x128.jpg', social: { twitter: false, github: true, linkedin: false } },
+  { name: 'JL Tempate', role: 'Software Engineer', email: 'jl.tempate@example.com', phone: '+1 (555) 012-3456', avatar: 'assets/img/jl-user-01.svg', social: { twitter: true, github: true, linkedin: true } },
+  { name: 'Sarah Johnson', role: 'UI/UX Designer', email: 'sarah.j@example.com', phone: '+1 (555) 234-5678', avatar: 'assets/img/jl-user-02.svg', social: { twitter: true, github: false, linkedin: true } },
+  { name: 'Michael Chen', role: 'Project Manager', email: 'm.chen@example.com', phone: '+1 (555) 345-6789', avatar: 'assets/img/jl-user-03.svg', social: { twitter: false, github: true, linkedin: true } },
+  { name: 'Emily Davis', role: 'Data Analyst', email: 'emily.d@example.com', phone: '+1 (555) 456-7890', avatar: 'assets/img/jl-user-04.svg', social: { twitter: true, github: true, linkedin: false } },
+  { name: 'Robert Wilson', role: 'DevOps Engineer', email: 'r.wilson@example.com', phone: '+1 (555) 567-8901', avatar: 'assets/img/jl-user-05.svg', social: { twitter: false, github: true, linkedin: true } },
+  { name: 'Jessica Martinez', role: 'Marketing Lead', email: 'j.martinez@example.com', phone: '+1 (555) 678-9012', avatar: 'assets/img/jl-user-06.svg', social: { twitter: true, github: false, linkedin: true } },
+  { name: 'Daniel Thompson', role: 'Backend Developer', email: 'd.thompson@example.com', phone: '+1 (555) 789-0123', avatar: 'assets/img/jl-user-07.svg', social: { twitter: true, github: true, linkedin: true } },
+  { name: 'Amanda Brown', role: 'QA Engineer', email: 'a.brown@example.com', phone: '+1 (555) 890-1234', avatar: 'assets/img/jl-user-08.svg', social: { twitter: false, github: true, linkedin: false } },
 ]
 
 export default function ContactsPage() {

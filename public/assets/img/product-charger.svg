@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960" role="img" aria-labelledby="title">
+  <title id="title">JL Tempate wireless charging pad</title>
+  <rect width="960" height="960" fill="#edf5f4"/>
+  <circle cx="480" cy="480" r="360" fill="#d5e8e5"/>
+  <ellipse cx="490" cy="650" rx="240" ry="74" fill="#172b3a" opacity=".14"/>
+  <path d="M270 555c0-44 94-80 210-80s210 36 210 80v55c0 44-94 80-210 80s-210-36-210-80z" fill="#243f4e"/>
+  <ellipse cx="480" cy="555" rx="210" ry="80" fill="#345463"/>
+  <ellipse cx="480" cy="555" rx="150" ry="55" fill="none" stroke="#22c6ad" stroke-width="12"/>
+  <rect x="390" y="170" width="180" height="350" rx="34" fill="#172b3a" transform="rotate(-10 480 345)"/>
+  <rect x="405" y="192" width="150" height="300" rx="22" fill="#f7fafc" transform="rotate(-10 480 345)"/>
+  <path d="M470 330c0-24 19-43 43-43s43 19 43 43-19 43-43 43-43-19-43-43" fill="#22c6ad" transform="rotate(-10 480 345)"/>
+  <path d="m497 309-17 26h20l-7 18 26-31h-20l8-13z" fill="#172b3a" transform="rotate(-10 480 345)"/>
+  <circle cx="700" cy="250" r="28" fill="#ff765e"/>
+</svg>
