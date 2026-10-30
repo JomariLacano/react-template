@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from 'react-router-dom'
+import { createHashRouter, Navigate } from 'react-router-dom'
 import { lazy, Suspense } from 'react'
 import DefaultLayout from '@/layouts/DefaultLayout'
 import AuthLayout from '@/layouts/AuthLayout'
@@ -56,7 +56,7 @@ const Lockscreen = lazy(() => import('@/pages/examples/Lockscreen'))
 const Error404 = lazy(() => import('@/pages/examples/Error404'))
 const Error500 = lazy(() => import('@/pages/examples/Error500'))
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <DefaultLayout />,

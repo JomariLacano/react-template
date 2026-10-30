@@ -161,7 +161,7 @@ const polarOptions: ChartOptions<'polarArea'> = {
 }
 
 // -- Mixed Chart --
-const mixedData: ChartData<'bar'> = {
+const mixedData: ChartData<'bar' | 'line'> = {
   labels: months,
   datasets: [
     {

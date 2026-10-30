@@ -150,7 +150,7 @@ export default function AppHeader() {
               className="flex items-start gap-3 px-3 py-3 hover:bg-gray-50 dark:hover:bg-gray-700 border-b dark:border-gray-700"
             >
               <img
-                src="/assets/img/user1-128x128.jpg"
+                src="assets/img/user1-128x128.jpg"
                 alt="User"
                 className="w-10 h-10 rounded-full flex-shrink-0"
               />
@@ -171,7 +171,7 @@ export default function AppHeader() {
               className="flex items-start gap-3 px-3 py-3 hover:bg-gray-50 dark:hover:bg-gray-700 border-b dark:border-gray-700"
             >
               <img
-                src="/assets/img/user8-128x128.jpg"
+                src="assets/img/user8-128x128.jpg"
                 alt="User"
                 className="w-10 h-10 rounded-full flex-shrink-0"
               />
@@ -192,7 +192,7 @@ export default function AppHeader() {
               className="flex items-start gap-3 px-3 py-3 hover:bg-gray-50 dark:hover:bg-gray-700 border-b dark:border-gray-700"
             >
               <img
-                src="/assets/img/user3-128x128.jpg"
+                src="assets/img/user3-128x128.jpg"
                 alt="User"
                 className="w-10 h-10 rounded-full flex-shrink-0"
               />
@@ -213,7 +213,7 @@ export default function AppHeader() {
               className="flex items-start gap-3 px-3 py-3 hover:bg-gray-50 dark:hover:bg-gray-700 border-b dark:border-gray-700"
             >
               <img
-                src="/assets/img/user5-128x128.jpg"
+                src="assets/img/user5-128x128.jpg"
                 alt="User"
                 className="w-10 h-10 rounded-full flex-shrink-0"
               />
@@ -320,7 +320,7 @@ export default function AppHeader() {
             onClick={() => setUserMenuOpen(!userMenuOpen)}
           >
             <img
-              src="/assets/img/user2-160x160.jpg"
+              src="assets/img/user2-160x160.jpg"
               alt="User"
               className="w-8 h-8 rounded-full object-cover"
             />
@@ -338,7 +338,7 @@ export default function AppHeader() {
             {/* User Info */}
             <div className="flex items-center gap-3 px-4 py-3 border-b dark:border-gray-700">
               <img
-                src="/assets/img/user2-160x160.jpg"
+                src="assets/img/user2-160x160.jpg"
                 alt="User"
                 className="w-12 h-12 rounded-full object-cover"
               />

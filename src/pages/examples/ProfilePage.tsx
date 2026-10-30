@@ -37,7 +37,7 @@ export default function ProfilePage() {
         </div>
         <div className="card-body relative -mt-16 pb-4">
           <div className="flex flex-col sm:flex-row items-center sm:items-end gap-4">
-            <img src="/assets/img/user2-160x160.jpg" alt="User Avatar" className="w-32 h-32 rounded-full border-4 border-white dark:border-gray-800 shadow-lg" />
+            <img src="assets/img/user2-160x160.jpg" alt="User Avatar" className="w-32 h-32 rounded-full border-4 border-white dark:border-gray-800 shadow-lg" />
             <div className="flex-1 text-center sm:text-left">
               <h2 className="text-2xl font-bold">JL Tempate</h2>
               <p className="text-gray-500 dark:text-gray-400">Senior Software Engineer</p>
@@ -212,10 +212,10 @@ export default function ProfilePage() {
                     </div>
                     <div className="timeline-body">
                       <div className="flex gap-2 mt-2">
-                        <img src="/assets/img/photo1.png" alt="Photo" className="w-16 h-16 rounded object-cover" />
-                        <img src="/assets/img/photo2.png" alt="Photo" className="w-16 h-16 rounded object-cover" />
-                        <img src="/assets/img/photo3.jpg" alt="Photo" className="w-16 h-16 rounded object-cover" />
-                        <img src="/assets/img/photo4.jpg" alt="Photo" className="w-16 h-16 rounded object-cover" />
+                        <img src="assets/img/photo1.png" alt="Photo" className="w-16 h-16 rounded object-cover" />
+                        <img src="assets/img/photo2.png" alt="Photo" className="w-16 h-16 rounded object-cover" />
+                        <img src="assets/img/photo3.jpg" alt="Photo" className="w-16 h-16 rounded object-cover" />
+                        <img src="assets/img/photo4.jpg" alt="Photo" className="w-16 h-16 rounded object-cover" />
                       </div>
                     </div>
                   </div>

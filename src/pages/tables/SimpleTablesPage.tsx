@@ -366,10 +366,10 @@ export default function SimpleTablesPage() {
               </thead>
               <tbody>
                 {[
-                  { id: 1, name: 'John Doe', email: 'john@example.com', avatar: '/assets/img/user1-128x128.jpg', status: 'Active', statusClass: 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300', last: false },
-                  { id: 2, name: 'Jane Smith', email: 'jane@example.com', avatar: '/assets/img/user3-128x128.jpg', status: 'Active', statusClass: 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300', last: false },
-                  { id: 3, name: 'Bob Wilson', email: 'bob@example.com', avatar: '/assets/img/user5-128x128.jpg', status: 'Inactive', statusClass: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300', last: false },
-                  { id: 4, name: 'Alice Brown', email: 'alice@example.com', avatar: '/assets/img/user7-128x128.jpg', status: 'Banned', statusClass: 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300', last: true },
+                  { id: 1, name: 'John Doe', email: 'john@example.com', avatar: 'assets/img/user1-128x128.jpg', status: 'Active', statusClass: 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300', last: false },
+                  { id: 2, name: 'Jane Smith', email: 'jane@example.com', avatar: 'assets/img/user3-128x128.jpg', status: 'Active', statusClass: 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300', last: false },
+                  { id: 3, name: 'Bob Wilson', email: 'bob@example.com', avatar: 'assets/img/user5-128x128.jpg', status: 'Inactive', statusClass: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300', last: false },
+                  { id: 4, name: 'Alice Brown', email: 'alice@example.com', avatar: 'assets/img/user7-128x128.jpg', status: 'Banned', statusClass: 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300', last: true },
                 ].map((row) => (
                   <tr key={row.id} className={`${!row.last ? 'border-b dark:border-gray-700 ' : ''}hover:bg-gray-50 dark:hover:bg-gray-700`}>
                     <td className="px-4 py-3">{row.id}</td>

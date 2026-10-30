@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: '/react-template/',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),

@@ -1,18 +1,18 @@
 import { useMemo } from 'react'
-import { Bar } from 'react-chartjs-2'
+import { Chart } from 'react-chartjs-2'
 import { useThemeColors } from '@/hooks/useThemeColors'
 import type { ChartData, ChartOptions } from 'chart.js'
 
 interface MixedChartProps {
-  data: ChartData<'bar'>
-  options?: ChartOptions<'bar'>
+  data: ChartData<'bar' | 'line'>
+  options?: ChartOptions<'bar' | 'line'>
   height?: number
 }
 
 export default function MixedChart({ data, options, height }: MixedChartProps) {
   const { gridColor, labelColor, borderColor } = useThemeColors()
 
-  const mergedOptions = useMemo<ChartOptions<'bar'>>(
+  const mergedOptions = useMemo<ChartOptions<'bar' | 'line'>>(
     () => ({
       responsive: true,
       maintainAspectRatio: false,
@@ -38,7 +38,7 @@ export default function MixedChart({ data, options, height }: MixedChartProps) {
 
   return (
     <div style={height ? { height: `${height}px` } : undefined}>
-      <Bar data={data} options={mergedOptions} />
+      <Chart type="bar" data={data} options={mergedOptions} />
     </div>
   )
 }
