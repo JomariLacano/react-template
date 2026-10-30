@@ -11,7 +11,7 @@ interface Contact {
 }
 
 const contacts: Contact[] = [
-  { name: 'Alexander Pierce', role: 'Software Engineer', email: 'alex.pierce@example.com', phone: '+1 (555) 012-3456', avatar: '/assets/img/user1-128x128.jpg', social: { twitter: true, github: true, linkedin: true } },
+  { name: 'JL Tempate', role: 'Software Engineer', email: 'jl.tempate@example.com', phone: '+1 (555) 012-3456', avatar: '/assets/img/user1-128x128.jpg', social: { twitter: true, github: true, linkedin: true } },
   { name: 'Sarah Johnson', role: 'UI/UX Designer', email: 'sarah.j@example.com', phone: '+1 (555) 234-5678', avatar: '/assets/img/user3-128x128.jpg', social: { twitter: true, github: false, linkedin: true } },
   { name: 'Michael Chen', role: 'Project Manager', email: 'm.chen@example.com', phone: '+1 (555) 345-6789', avatar: '/assets/img/user4-128x128.jpg', social: { twitter: false, github: true, linkedin: true } },
   { name: 'Emily Davis', role: 'Data Analyst', email: 'emily.d@example.com', phone: '+1 (555) 456-7890', avatar: '/assets/img/user5-128x128.jpg', social: { twitter: true, github: true, linkedin: false } },

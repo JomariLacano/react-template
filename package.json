@@ -1,7 +1,7 @@
 {
-  "name": "tailadminlte-react",
+  "name": "jl-tempate",
   "version": "1.0.0",
-  "description": "AdminLTE v4 recreated with React 18 and Tailwind CSS",
+  "description": "A reusable React and Tailwind CSS dashboard template",
   "type": "module",
   "scripts": {
     "dev": "vite",

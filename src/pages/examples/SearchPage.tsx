@@ -3,38 +3,38 @@ import { Search, Globe, Image, Newspaper, ChevronLeft, ChevronRight } from 'luci
 
 export default function SearchPage() {
   const [activeTab, setActiveTab] = useState<'all' | 'images' | 'news'>('all')
-  const [query, setQuery] = useState('TailAdminLTE dashboard')
+  const [query, setQuery] = useState('JL Tempate dashboard')
   const [currentPage, setCurrentPage] = useState(1)
 
   const allResults = [
     {
-      title: 'TailAdminLTE - Premium Admin Dashboard Template',
-      url: 'https://tailadminlte.com/docs/getting-started',
-      desc: 'A modern, responsive admin dashboard built with Tailwind CSS and Alpine.js. Features 50+ UI components, dark mode, multiple layouts, and Chart.js integration.',
+      title: 'JL Tempate - React Dashboard Template',
+      url: 'https://jltempate.dev/docs/getting-started',
+      desc: 'A responsive admin dashboard built with React, TypeScript, and Tailwind CSS. Includes reusable UI components, dark mode, multiple layouts, and Chart.js integration.',
     },
     {
-      title: 'Getting Started with TailAdminLTE - Installation Guide',
-      url: 'https://tailadminlte.com/docs/installation',
-      desc: 'Learn how to install and configure TailAdminLTE in your project. Supports npm, yarn, and CDN-based installation methods with detailed setup instructions.',
+      title: 'Getting Started with JL Tempate - Installation Guide',
+      url: 'https://jltempate.dev/docs/installation',
+      desc: 'Learn how to install and configure JL Tempate in your project with npm and get started with the included dashboard pages and components.',
     },
     {
-      title: 'Dashboard Components & Widgets - TailAdminLTE Docs',
-      url: 'https://tailadminlte.com/docs/widgets',
+      title: 'Dashboard Components & Widgets - JL Tempate Docs',
+      url: 'https://jltempate.dev/docs/widgets',
       desc: 'Explore small boxes, info boxes, cards, direct chat, and timeline widgets. Each component comes with multiple style variants and dark mode support.',
     },
     {
-      title: 'Building Custom Themes - TailAdminLTE Customization',
-      url: 'https://tailadminlte.com/docs/theming',
+      title: 'Building Custom Themes - JL Tempate Customization',
+      url: 'https://jltempate.dev/docs/theming',
       desc: 'Customize colors, fonts, spacing, and component styles using Tailwind CSS configuration. Create your own branded theme in minutes.',
     },
     {
-      title: 'TailAdminLTE vs Other Admin Templates - Comparison 2026',
+      title: 'JL Tempate vs Other Admin Templates - Comparison 2026',
       url: 'https://blog.example.com/admin-template-comparison',
-      desc: 'A comprehensive comparison of top admin dashboard templates including TailAdminLTE, AdminLTE, and others. See how they stack up in features, performance, and developer experience.',
+      desc: 'A comparison of popular admin dashboard templates, covering features, performance, and developer experience.',
     },
     {
-      title: 'Chart.js Integration in TailAdminLTE',
-      url: 'https://tailadminlte.com/docs/charts',
+      title: 'Chart.js Integration in JL Tempate',
+      url: 'https://jltempate.dev/docs/charts',
       desc: 'Learn to create line, bar, doughnut, radar, and polar area charts using Chart.js. Includes responsive chart cards and inline sparkline examples.',
     },
   ]
@@ -52,21 +52,21 @@ export default function SearchPage() {
 
   const newsResults = [
     {
-      title: 'TailAdminLTE v2.0 Released with Full Dark Mode Support',
+      title: 'JL Tempate 1.0 Released with Full Dark Mode Support',
       source: 'TechNews - March 10, 2026',
       desc: 'The popular open-source admin template now features complete dark mode, improved accessibility, and 20 new UI components...',
       thumb: '/assets/img/photo1.png',
     },
     {
-      title: 'Top 10 Admin Dashboards for 2026 - TailAdminLTE Makes the List',
+      title: 'Top 10 Admin Dashboards for 2026 - JL Tempate Makes the List',
       source: 'WebDev Weekly - February 28, 2026',
-      desc: 'Our annual roundup of the best admin dashboard templates includes TailAdminLTE as a top pick for Tailwind CSS projects...',
+      desc: 'Our annual roundup of admin dashboard templates includes JL Tempate as a pick for React and Tailwind CSS projects...',
       thumb: '/assets/img/photo2.png',
     },
     {
-      title: 'How TailAdminLTE Simplifies Admin Panel Development',
+      title: 'How JL Tempate Simplifies Admin Panel Development',
       source: 'Dev.to - February 15, 2026',
-      desc: "A deep dive into how TailAdminLTE combines the power of Tailwind CSS utility classes with AdminLTE's proven layout patterns...",
+      desc: 'A look at how JL Tempate combines reusable React components with Tailwind CSS to speed up admin panel development...',
       thumb: '/assets/img/photo3.jpg',
     },
   ]

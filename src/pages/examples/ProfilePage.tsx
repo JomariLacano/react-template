@@ -16,12 +16,12 @@ export default function ProfilePage() {
   ]
 
   const [form, setForm] = useState({
-    firstName: 'Alexander',
-    lastName: 'Pierce',
-    email: 'alex.pierce@example.com',
+    firstName: 'JL',
+    lastName: 'Tempate',
+    email: 'jl.tempate@example.com',
     bio: 'Full-stack developer with 10+ years of experience building web applications.',
     location: 'San Francisco, California',
-    website: 'https://alexpierce.dev',
+    website: 'https://jltempate.dev',
   })
 
   function updateForm(field: string, value: string) {
@@ -39,7 +39,7 @@ export default function ProfilePage() {
           <div className="flex flex-col sm:flex-row items-center sm:items-end gap-4">
             <img src="/assets/img/user2-160x160.jpg" alt="User Avatar" className="w-32 h-32 rounded-full border-4 border-white dark:border-gray-800 shadow-lg" />
             <div className="flex-1 text-center sm:text-left">
-              <h2 className="text-2xl font-bold">Alexander Pierce</h2>
+              <h2 className="text-2xl font-bold">JL Tempate</h2>
               <p className="text-gray-500 dark:text-gray-400">Senior Software Engineer</p>
             </div>
             <div className="flex gap-2">
@@ -101,7 +101,7 @@ export default function ProfilePage() {
                 </li>
                 <li className="flex items-center gap-3">
                   <Globe className="w-4 h-4 text-gray-400" />
-                  <a href="#" className="text-blue-600 hover:underline">alexpierce.dev</a>
+                  <a href="#" className="text-blue-600 hover:underline">jltempate.dev</a>
                 </li>
               </ul>
             </div>
@@ -196,7 +196,7 @@ export default function ProfilePage() {
                       <Star className="w-3 h-3" />
                     </div>
                     <div className="timeline-header">
-                      Starred repository <a href="#">tailadminlte/core</a>
+                      Starred repository <a href="#">jl-tempate/core</a>
                       <span className="time"><Clock className="w-3 h-3 inline mr-1" />1 day ago</span>
                     </div>
                   </div>

@@ -10,7 +10,7 @@ interface LineItem {
 }
 
 const lineItems: LineItem[] = [
-  { id: 1, product: 'TailAdminLTE Pro License', description: 'Single developer license with 1 year of updates', qty: 2, unitPrice: 59.00, subtotal: 118.00 },
+  { id: 1, product: 'JL Tempate Pro License', description: 'Single developer license with 1 year of updates', qty: 2, unitPrice: 59.00, subtotal: 118.00 },
   { id: 2, product: 'Extended Support', description: 'Priority email & chat support for 12 months', qty: 1, unitPrice: 29.00, subtotal: 29.00 },
   { id: 3, product: 'Custom Theme Design', description: 'Custom branded color scheme and logo integration', qty: 1, unitPrice: 199.00, subtotal: 199.00 },
   { id: 4, product: 'Component Library Add-on', description: '50+ additional UI components pack', qty: 1, unitPrice: 39.00, subtotal: 39.00 },
@@ -38,8 +38,8 @@ export default function InvoicePage() {
         <div className="flex flex-col sm:flex-row justify-between items-start mb-8">
           <div>
             <div className="flex items-center gap-3 mb-2">
-              <img src="/assets/img/AdminLTELogo.png" alt="Logo" className="w-10 h-10" />
-              <h2 className="text-2xl font-bold">TailAdmin<span className="font-normal">LTE</span></h2>
+              <span className="flex h-10 w-10 items-center justify-center rounded bg-gray-800 text-sm font-bold text-white">JL</span>
+              <h2 className="text-2xl font-bold">JL <span className="font-normal">Tempate</span></h2>
             </div>
             <p className="text-sm text-gray-500 dark:text-gray-400">Premium Admin Dashboard</p>
           </div>
@@ -55,12 +55,12 @@ export default function InvoicePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8 pb-8 border-b border-gray-200 dark:border-gray-700">
           <div>
             <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">From</h4>
-            <p className="font-semibold">TailAdminLTE Inc.</p>
+            <p className="font-semibold">JL Tempate</p>
             <p className="text-sm text-gray-500 dark:text-gray-400">
               795 Folsom Ave, Suite 600<br />
               San Francisco, CA 94107<br />
               Phone: (804) 123-5432<br />
-              Email: billing@tailadminlte.com
+              Email: billing@jltempate.dev
             </p>
           </div>
           <div>

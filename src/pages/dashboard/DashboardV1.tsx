@@ -74,7 +74,7 @@ const visitorsChartData: ChartData<'bar'> = {
 // -- Direct Chat data --
 const initialChatMessages: ChatMessage[] = [
   {
-    name: 'Alexander Pierce',
+    name: 'JL Tempate',
     avatar: '/assets/img/user1-128x128.jpg',
     text: "Is this template really free? That's unbelievable!",
     time: '23 Jan 2:00 pm',
@@ -88,9 +88,9 @@ const initialChatMessages: ChatMessage[] = [
     side: 'right',
   },
   {
-    name: 'Alexander Pierce',
+    name: 'JL Tempate',
     avatar: '/assets/img/user1-128x128.jpg',
-    text: 'Working with AdminLTE on a great new app! Wanna join?',
+    text: 'Working with JL Tempate on a great new app! Wanna join?',
     time: '23 Jan 5:37 pm',
     side: 'left',
   },

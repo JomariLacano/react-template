@@ -15,13 +15,11 @@ export default function AppSidebar({ activePage }: AppSidebarProps) {
       <aside className="app-sidebar">
         <div className="sidebar-brand">
           <Link to="/" className="brand-link">
-            <img
-              src="/assets/img/AdminLTELogo.png"
-              alt="TailAdminLTE Logo"
-              className="brand-image"
-            />
+            <span className="brand-image flex h-[33px] w-[33px] items-center justify-center rounded bg-white text-xs font-bold text-slate-800">
+              JL
+            </span>
             <span className="brand-text">
-              TailAdmin<b>LTE</b>
+              JL <b>Tempate</b>
             </span>
           </Link>
         </div>

@@ -7,7 +7,7 @@ import type { ChatMessage, ChatContact } from '@/types'
 // Chat data
 const chatMessages: ChatMessage[] = [
   {
-    name: 'Alexander Pierce',
+    name: 'JL Tempate',
     avatar: '/assets/img/user1-128x128.jpg',
     text: "Is this template really free? That's amazing!",
     time: '23 Jan 2:00 pm',
@@ -21,7 +21,7 @@ const chatMessages: ChatMessage[] = [
     side: 'right',
   },
   {
-    name: 'Alexander Pierce',
+    name: 'JL Tempate',
     avatar: '/assets/img/user1-128x128.jpg',
     text: "That's great. I've been looking for something like this for a while. Thanks for sharing!",
     time: '23 Jan 5:37 pm',
@@ -30,7 +30,7 @@ const chatMessages: ChatMessage[] = [
 ]
 
 const chatContacts: ChatContact[] = [
-  { name: 'Alexander Pierce', avatar: '/assets/img/user1-128x128.jpg', status: 'Online' },
+  { name: 'JL Tempate', avatar: '/assets/img/user1-128x128.jpg', status: 'Online' },
   { name: 'Sarah Bullock', avatar: '/assets/img/user3-128x128.jpg', status: 'Online' },
   { name: 'Nora Silvester', avatar: '/assets/img/user5-128x128.jpg', status: 'Offline' },
 ]
@@ -133,7 +133,7 @@ export default function CardsPage() {
               <p>Content for the second tab. Each tab can hold different content and is toggled client-side.</p>
             </div>
             <div style={{ display: activeTab1 === 'tab3' ? undefined : 'none' }}>
-              <p>Content for the third tab. Tabs are styled to match the AdminLTE design language.</p>
+              <p>Content for the third tab. Tabs are styled to match the JL Tempate design language.</p>
             </div>
           </div>
         </div>

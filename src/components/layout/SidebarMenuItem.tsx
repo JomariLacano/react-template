@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useCallback, forwardRef, useImperativeHandle } from 'react'
+import { useState, useRef, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { icons, ChevronRight, Circle } from 'lucide-react'
 import { slideDown, slideUp } from '@/hooks/useSlideToggle'
@@ -9,6 +9,7 @@ interface SidebarMenuItemProps {
   activePage: string
   accordion?: boolean
   onMenuToggle?: () => void
+  onHandleReady?: (handle: SidebarMenuItemHandle | null) => void
 }
 
 export interface SidebarMenuItemHandle {
@@ -31,8 +32,7 @@ function isChildActive(item: NavigationItem, activePage: string): boolean {
   return false
 }
 
-const SidebarMenuItem = forwardRef<SidebarMenuItemHandle, SidebarMenuItemProps>(
-  function SidebarMenuItem({ item, activePage, accordion = true, onMenuToggle }, ref) {
+export default function SidebarMenuItem({ item, activePage, accordion = true, onMenuToggle, onHandleReady }: SidebarMenuItemProps) {
     const treeviewRef = useRef<HTMLUListElement>(null)
     const childRefs = useRef<Map<number, SidebarMenuItemHandle>>(new Map())
     const hasChildren = !!item.children?.length
@@ -85,7 +85,10 @@ const SidebarMenuItem = forwardRef<SidebarMenuItemHandle, SidebarMenuItemProps>(
       }
     }, [hasChildren, isOpen, close, open])
 
-    useImperativeHandle(ref, () => ({ close }), [close])
+    useEffect(() => {
+      onHandleReady?.({ close })
+      return () => onHandleReady?.(null)
+    }, [close, onHandleReady])
 
     const handleChildToggle = useCallback((toggledIndex: number) => {
       // Accordion: close sibling children when one opens
@@ -123,9 +126,9 @@ const SidebarMenuItem = forwardRef<SidebarMenuItemHandle, SidebarMenuItemProps>(
             {item.children!.map((child, index) => (
               <SidebarMenuItem
                 key={index}
-                ref={(el) => {
-                  if (el) {
-                    childRefs.current.set(index, el)
+                onHandleReady={(handle) => {
+                  if (handle) {
+                    childRefs.current.set(index, handle)
                   } else {
                     childRefs.current.delete(index)
                   }
@@ -140,8 +143,6 @@ const SidebarMenuItem = forwardRef<SidebarMenuItemHandle, SidebarMenuItemProps>(
         </li>
       )
     }
-
-    // Leaf item
     return (
       <li className="nav-item">
         {item.href ? (
@@ -172,7 +173,4 @@ const SidebarMenuItem = forwardRef<SidebarMenuItemHandle, SidebarMenuItemProps>(
         )}
       </li>
     )
-  }
-)
-
-export default SidebarMenuItem
+}

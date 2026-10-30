@@ -23,16 +23,15 @@ export default function LogoSwitchPage() {
           <input type="checkbox" checked={collapsed} onChange={(e) => toggleCollapsed(e.target.checked)} className="accent-primary" />
           <span>Collapse sidebar to see the logo switch</span>
         </label>
-        <p className="text-sm text-gray-500 mt-2">Toggle the checkbox to collapse the sidebar and watch the brand area transition. The text "TailAdmin<b>LTE</b>" fades out and the sidebar shrinks to show only the logo icon. Hover over the collapsed sidebar to see the full brand restored.</p>
+        <p className="text-sm text-gray-500 mt-2">Toggle the checkbox to collapse the sidebar and watch the brand area transition. The text "JL Tempate" fades out and the sidebar shrinks to show only the logo icon. Hover over the collapsed sidebar to see the full brand restored.</p>
       </AppCard>
 
       <AppCard title="How It Works">
         <p>The sidebar brand is composed of two elements inside <code>.sidebar-brand</code>:</p>
         <pre className="bg-gray-800 text-green-400 p-4 rounded mt-2 text-sm overflow-x-auto"><code>{`<div class="sidebar-brand">
   <a href="./index.html" class="brand-link">
-    <img src="/assets/img/AdminLTELogo.png"
-         alt="Logo" class="brand-image">
-    <span class="brand-text">TailAdmin<b>LTE</b></span>
+        <span class="brand-image">JL</span>
+        <span class="brand-text">JL <b>Tempate</b></span>
   </a>
 </div>`}</code></pre>
 
@@ -80,8 +79,8 @@ export default function LogoSwitchPage() {
           <div>
             <h5 className="font-semibold mb-3">Expanded Sidebar (Full Logo)</h5>
             <div className="bg-gray-800 rounded-lg p-4 flex items-center gap-3">
-              <img src="/assets/img/AdminLTELogo.png" alt="Logo" className="w-8 h-8 opacity-80" />
-              <span className="text-white text-lg font-light">TailAdmin<b>LTE</b></span>
+              <span className="flex h-8 w-8 items-center justify-center rounded bg-white text-xs font-bold text-slate-800">JL</span>
+              <span className="text-white text-lg font-light">JL <b>Tempate</b></span>
             </div>
             <p className="text-sm text-gray-500 mt-2">Both logo image and brand text are visible.</p>
           </div>
@@ -90,7 +89,7 @@ export default function LogoSwitchPage() {
           <div>
             <h5 className="font-semibold mb-3">Collapsed Sidebar (Mini Logo)</h5>
             <div className="bg-gray-800 rounded-lg p-4 flex items-center justify-center" style={{ width: '4.6rem' }}>
-              <img src="/assets/img/AdminLTELogo.png" alt="Logo" className="w-8 h-8 opacity-80" />
+              <span className="flex h-8 w-8 items-center justify-center rounded bg-white text-xs font-bold text-slate-800">JL</span>
             </div>
             <p className="text-sm text-gray-500 mt-2">Only the logo image is visible; text is hidden.</p>
           </div>
@@ -100,7 +99,7 @@ export default function LogoSwitchPage() {
       {/* Customization Tips */}
       <AppCard title="Customization Tips">
         <ul className="list-disc pl-6 space-y-2">
-          <li>Replace <code>/assets/img/AdminLTELogo.png</code> with your own logo image. Use a square icon that looks good at small sizes (around 33px).</li>
+          <li>Replace the JL monogram with your own square logo image, sized to look good at around 33px.</li>
           <li>Change the <code>.brand-text</code> content to your application name.</li>
           <li>For a completely different mini logo, you can use CSS to swap between two different images based on the collapse state.</li>
           <li>The brand area height matches <code>var(--header-height)</code> for alignment with the top navbar.</li>

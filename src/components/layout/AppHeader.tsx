@@ -343,7 +343,7 @@ export default function AppHeader() {
                 className="w-12 h-12 rounded-full object-cover"
               />
               <div>
-                <p className="font-semibold text-sm m-0">Alexander Pierce</p>
+                <p className="font-semibold text-sm m-0">JL Tempate</p>
                 <p className="text-xs text-gray-400 m-0">Web Developer</p>
               </div>
             </div>

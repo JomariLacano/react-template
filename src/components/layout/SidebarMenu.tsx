@@ -53,7 +53,7 @@ export default function SidebarMenu({ sections, activePage }: SidebarMenuProps) 
             {section.items.map((item, itemIndex) => (
               <SidebarMenuItem
                 key={`${sectionIndex}-${itemIndex}`}
-                ref={getRefSetter(sectionIndex, itemIndex)}
+                onHandleReady={getRefSetter(sectionIndex, itemIndex)}
                 item={item}
                 activePage={activePage}
                 onMenuToggle={() => handleMenuToggle(sectionIndex, itemIndex)}

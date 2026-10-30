@@ -15,7 +15,7 @@ export default function LoginV1() {
 
           {/* Logo */}
           <div className="auth-logo">
-            <Link to="/"><span>Tail</span>AdminLTE</Link>
+            <Link to="/"><span>JL</span> Tempate</Link>
             <p>Sign in to start your session</p>
           </div>
 

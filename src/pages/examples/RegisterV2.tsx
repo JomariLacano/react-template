@@ -18,7 +18,7 @@ export default function RegisterV2() {
 
           {/* Logo */}
           <div className="auth-logo">
-            <Link to="/"><span>Tail</span>AdminLTE</Link>
+            <Link to="/"><span>JL</span> Tempate</Link>
             <p>Register a new membership</p>
           </div>
 

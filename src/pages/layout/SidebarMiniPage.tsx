@@ -20,7 +20,7 @@ export default function SidebarMiniPage() {
   return (
     <div>
       <AppCallout variant="info" title="Sidebar Mini Layout">
-        This page demonstrates the <strong>sidebar mini</strong> mode. When the sidebar is collapsed, it shrinks to show only icons. Hovering over the collapsed sidebar temporarily expands it to reveal the full menu text. This behavior is enabled by the <code>sidebar-mini</code> class on the body (which is present by default in TailAdminLTE).
+        This page demonstrates the <strong>sidebar mini</strong> mode. When the sidebar is collapsed, it shrinks to show only icons. Hovering over the collapsed sidebar temporarily expands it to reveal the full menu text. This behavior is enabled by the <code>sidebar-mini</code> class on the body (which is present by default in JL Tempate).
         <p className="mt-2">Usage: <code>&lt;body class="layout-fixed sidebar-expand-lg sidebar-mini sidebar-open"&gt;</code></p>
       </AppCallout>
 

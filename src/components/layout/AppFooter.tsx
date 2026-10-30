@@ -5,7 +5,7 @@ export default function AppFooter() {
         <strong>
           &copy; 2024-2026{' '}
           <a href="#" className="text-primary hover:underline">
-            TailAdminLTE
+            JL Tempate
           </a>
           .
         </strong>{' '}

@@ -11,7 +11,7 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { name: 'TailAdminLTE Core', desc: 'Main dashboard framework with Tailwind CSS', status: 'active', progress: 78, deadline: 'Apr 15, 2026', team: ['/assets/img/user1-128x128.jpg', '/assets/img/user3-128x128.jpg', '/assets/img/user5-128x128.jpg'] },
+  { name: 'JL Tempate Core', desc: 'Main dashboard framework with Tailwind CSS', status: 'active', progress: 78, deadline: 'Apr 15, 2026', team: ['/assets/img/user1-128x128.jpg', '/assets/img/user3-128x128.jpg', '/assets/img/user5-128x128.jpg'] },
   { name: 'E-Commerce Module', desc: 'Product management and checkout flow', status: 'active', progress: 45, deadline: 'May 20, 2026', team: ['/assets/img/user4-128x128.jpg', '/assets/img/user6-128x128.jpg'] },
   { name: 'Mobile App Redesign', desc: 'React Native mobile application overhaul', status: 'completed', progress: 100, deadline: 'Feb 28, 2026', team: ['/assets/img/user1-128x128.jpg', '/assets/img/user7-128x128.jpg', '/assets/img/user8-128x128.jpg', '/assets/img/user3-128x128.jpg'] },
   { name: 'API Gateway v2', desc: 'Microservices API gateway with rate limiting', status: 'on-hold', progress: 32, deadline: 'Jun 10, 2026', team: ['/assets/img/user5-128x128.jpg', '/assets/img/user6-128x128.jpg'] },
