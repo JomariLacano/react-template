@@ -1,19 +1,12 @@
-# TailAdminLTE React
+# JL Tempate
 
-**AdminLTE v4 reimagined with React 18 + Tailwind CSS** — A free, open-source admin dashboard template built with React 18, TypeScript, Zustand, and React Router. Clone it and build your next admin panel on top.
-
-<h3 align="center">
-  <a href="https://tailadminlte-react.vercel.app/">Live Demo</a>
-</h3>
+**A reusable admin dashboard template built with React 18, TypeScript, Tailwind CSS, Zustand, and React Router.** Use it as the starting point for your next project.
 
 <p align="center">
-  <a href="https://tailadminlte-react.vercel.app/">
-    <img src="docs/screenshots/dashboard-v1-light.png" alt="TailAdminLTE React Dashboard" width="100%">
-  </a>
+  <img src="docs/screenshots/dashboard-v1-light.png" alt="JL Tempate dashboard preview" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://tailadminlte-react.vercel.app/">Live Demo</a> &bull;
   <a href="#features">Features</a> &bull;
   <a href="#screenshots">Screenshots</a> &bull;
   <a href="#quick-start">Quick Start</a> &bull;
@@ -23,7 +16,6 @@
   <a href="#components">Components</a> &bull;
   <a href="#dark-mode">Dark Mode</a> &bull;
   <a href="#customization">Customization</a> &bull;
-  <a href="#other-versions">Other Versions</a> &bull;
   <a href="#credits">Credits</a> &bull;
   <a href="#license">License</a>
 </p>
@@ -113,9 +105,9 @@
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/wilocampo/tailadminlte-react.git
-cd tailadminlte-react
+# Clone your JL Tempate repository
+git clone https://github.com/your-username/jl-tempate.git
+cd jl-tempate
 
 # Install dependencies
 npm install
@@ -227,7 +219,7 @@ src/
 
 ### Layout Variants (10) &bull; Auth & Error Pages (7) &bull; Example Pages (7)
 
-**41 pages total** — see [the live demo](https://tailadminlte-react.vercel.app/) for the full experience.
+**41 pages total** — dashboards, components, forms, charts, auth screens, and layout examples.
 
 ---
 
@@ -303,28 +295,16 @@ All tokens in `src/assets/css/app.css` via Tailwind v4's `@theme`:
 
 ---
 
-## Other Versions
-
-| Version | Repository | Demo |
-|:---|:---|:---|
-| **HTML** (Alpine.js + Handlebars) | [tailadminlte](https://github.com/wilocampo/tailadminlte) | — |
-| **Vue 3** (Pinia + Vue Router) | [tailadminlte-vue](https://github.com/wilocampo/tailadminlte-vue) | [Demo](https://tailadminlte-vue.vercel.app/) |
-| **React 18** (Zustand + React Router) | This repo | [Demo](https://tailadminlte-react.vercel.app/) |
-
-All versions share identical CSS and produce pixel-for-pixel identical visual output.
-
----
-
 ## Credits
 
-TailAdminLTE is a **community recreation** of [AdminLTE](https://adminlte.io/) using Tailwind CSS.
+JL Tempate is an independently maintained React dashboard template. Its initial layout was inspired by [AdminLTE v4](https://github.com/ColorlibHQ/AdminLTE).
 
 - **Original project:** [AdminLTE v4](https://github.com/ColorlibHQ/AdminLTE) by [ColorlibHQ](https://github.com/ColorlibHQ) (MIT License)
 - [React](https://react.dev/) &bull; [Tailwind CSS](https://tailwindcss.com/) &bull; [Vite](https://vitejs.dev/) &bull; [Zustand](https://zustand.docs.pmnd.rs/) &bull; [Chart.js](https://www.chartjs.org/) &bull; [Lucide](https://lucide.dev/) &bull; [Inter font](https://rsms.me/inter/)
 
 ### Disclaimer
 
-TailAdminLTE is an **independent project** not affiliated with or endorsed by AdminLTE or ColorlibHQ.
+JL Tempate is not affiliated with or endorsed by AdminLTE or ColorlibHQ.
 
 ---
 
@@ -336,4 +316,6 @@ Contributions welcome! Fork, branch, commit, push, PR.
 
 ## License
 
-[MIT](LICENSE) — same as the original AdminLTE.
+[MIT](LICENSE). See the license file for original notices and permissions.
+#   r e a c t - t e m p l a t e  
+ 
